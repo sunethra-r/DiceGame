@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+body{
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-image: url(img/ezgif.com-gif-maker.gif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#play{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(125, 214, 218);
+    font-family: 'IM Fell English SC', serif;
+    font-size: 30px;
+    transition: transform .4s;
+}
+#play:hover{
+    transform: scale(1.2);
+}
+#restart{
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgb(125, 214, 218);
+    font-family: 'IM Fell English SC', serif;
+    font-size: 30px;
+    transition: transform .4s;
+}
+#restart:hover{
+    transform: scale(1.2);
+}
+img{
+    height: 200px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 14, 14);
+    border-radius: 8px;
+}
+p{
+    font-size: 30px;  
+    /* color:  rgb(252, 14, 14); */
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+#rightgif{
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+#leftgif{
+    position: absolute;
+    transform: scaleX(-1);
+    left: 0;
+    top: 30%;
+}
